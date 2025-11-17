@@ -48,6 +48,8 @@
         img {
             border: 1px solid #444444;
             margin-top: 20px;
+            max-width: 100%;
+            height: auto;
         }
 
         /* Add hover effect for table rows */
@@ -66,7 +68,7 @@
     
     <!-- Display the histogram -->
     <h2>Rental Prices (CHF)</h2>
-    <img src="{{ histogram_path }}" alt="Price Histogram" width="500">
+    <img src="{{ histogram_path }}" alt="Price Histogram" width="500" height="auto">
 
     <!-- Display the apartment data in a table -->
     <table>
